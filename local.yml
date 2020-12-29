@@ -1,10 +1,12 @@
-- hosts:  localhost
+- hosts: localhost
   connection: local
   become: true
-  
+
+  pre_tasks:
+      - name: update reporistories
+        pacman:
+            update_cache: yes
+        changed_when: false
+
   tasks:
-  - name: Install htop
-    pacman:
-      name:
-      - htop
-      - remmina
+      - include: tasks/packages.yml

@@ -1,0 +1,7 @@
+- name: Install packages
+  pacman:
+      name:
+          - htop
+          - remmina
+          - tmux
+          - freerdp
