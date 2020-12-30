@@ -16,6 +16,5 @@
           - lollypop
           - gnome-todo
           - totem
-          - avahi
       state: absent
 
