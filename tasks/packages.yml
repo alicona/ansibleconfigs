@@ -5,3 +5,19 @@
           - remmina
           - tmux
           - freerdp
+
+- name: Remove Packages
+  pacman:
+      name:
+          - gnome-calendar
+          - gnome-contacts
+          - geary
+          - gnome-maps
+          - lollypop
+          - malcontent
+          - stoken
+          - gnome-todo
+          - totem
+          - avahi
+      state: absent
+
