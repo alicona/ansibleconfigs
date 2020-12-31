@@ -5,6 +5,8 @@
           - remmina
           - tmux
           - freerdp
+          - vlc
+          - neofetch
 
 - name: Remove Packages
   pacman:
