@@ -3,9 +3,11 @@
       name:
           - htop
           - remmina
+          - libvncserver
           - tmux
           - freerdp
           - vlc
+          - vim
           - neofetch
 
 - name: Remove Packages
